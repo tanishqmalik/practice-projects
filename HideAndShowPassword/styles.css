@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.input-box{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.input-box input{
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+}
+.input-box img{
+    width: 40px;
+}
+.eyeOpened{
+    display: none;
+}
+
+.eyeClosed{
+    display: block;
+    cursor: pointer;
+}
+ .okay{
+    /* cursor: pointer; */
+    display: none;
+}
+
+.red{
+    display: block;
+}
